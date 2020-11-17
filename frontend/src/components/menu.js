@@ -117,7 +117,7 @@ const Menu = ({ history }) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Globant
+          TaskSoft
           </Typography>
         </Toolbar>
       </AppBar>
@@ -149,7 +149,7 @@ const Menu = ({ history }) => {
           ))} */}
           <ListItem button>
             <ListItemIcon onClick={() => history.push("/task")}>
-              {<Task />}TaskSoft
+              {<Task />}Tareas
             </ListItemIcon>
           </ListItem>
           <ListItem button>
